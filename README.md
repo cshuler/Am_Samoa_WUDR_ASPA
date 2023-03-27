@@ -1,2 +1,2 @@
 # Am_Samoa_WUDR_ASPA
- Making AS Water Use Data Available to the Nation
+ Water Use Data And Reporting for American Samoa 
