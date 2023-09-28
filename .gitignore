@@ -1,0 +1,7 @@
+# added for customer privacy
+/WUDR_Customer_Service_Data/Data Cleaning/OriginalData/
+/WUDR_Customer_Service_Data/Data Cleaning/OrganizedData/WaterBilling
+/WUDR_Customer_Service_Data/Data Cleaning/OrganizedData/data.csv
+
+# venv
+/WUDR_Customer_Service_Data/Data Cleaning/venv/
