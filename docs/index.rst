@@ -34,5 +34,4 @@ Code
 
 You can view the specific code file on GitHub
 
-https://github.com/lmclatch/ASPA/blob/main/folder/folder1/__main__.py
-
+https://github.com/cshuler/Am_Samoa_WUDR_ASPA/blob/main/WUDR_Customer_Service_Data/Scripts/main_jupyter.ipynb
