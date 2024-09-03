@@ -7,19 +7,18 @@ A guide to accessing the processed data. The tables are posted to an object endp
 
 Data Endpoint URLs ~
 
-https://try-test.sfo3.digitaloceanspaces.com/Final_Aggregated_Data.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Final_Aggregated_Data.csv
 
-https://try-test.sfo3.digitaloceanspaces.com/WaterSources.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Organization.csv
 
-https://try-test.sfo3.digitaloceanspaces.com/Sites.csv 
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Sites.csv
 
-https://try-test.sfo3.digitaloceanspaces.com/Variables.csv 
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Variables.csv
 
-https://try-test.sfo3.digitaloceanspaces.com/Organization.csv 
- 
+https://aspa-wudr.sfo3.digitaloceanspaces.com/WaterSources.csv
 
 
-Required Libraries
+Example Access with Python
 ------------------
 
 To access the endpoints within Python, you'll need this Python library
@@ -56,39 +55,39 @@ Final Aggregated Data
 This is the main table with the required water use data
 Final_Aggregated_Data.csv
 
-SiteNativeID: Unique identifier code / ID used by the data provider to distinguish the data site in the source data set.
+**SiteNativeID**
 
-Example: Aasu		
+Unique identifier code / ID used by the data provider to distinguish the data site in the source data set.: Aasu		
 
 
-BeneficialUseCategory: The use category for which the water is being allocated to
+**BeneficialUseCategory**
 
-Example: Commercial
+The use category for which the water is being allocated to: Commercial
 
 			
-TimeframeStart: The datetime start of the recorded usage
+**TimeframeStart**
 
-Example: 2021-12-01
-
-
-TimeframeEnd: The datetime end of the recorded usage
-
-Example: 2021-12-31
+The datetime start of the recorded usage: 2021-12-01
 
 
-Amount: Usage of water reported for the specific time frame, village, and use.
+**TimeframeEnd** 
 
-Example: 5008.0
-
-
-VariableCV: This is a high-level variable used for site-specific water data.
-
-Example: Consumptive Use
+The datetime end of the recorded usage: 2021-12-31
 
 
-ReportYear: Year associated with data
+**Amount**
+
+Usage of water reported for the specific time frame, village, and use : 5008.0
+
+
+**VariableCV**
+
+This is a high-level variable used for site-specific water data : Consumptive Use
+
+
+**ReportYear**
 	
-Example: 2021
+Year associated with data: 2021
 
 
 URL ~
