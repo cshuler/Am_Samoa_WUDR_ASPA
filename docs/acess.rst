@@ -62,32 +62,32 @@ Unique identifier code / ID used by the data provider to distinguish the data si
 
 **BeneficialUseCategory**
 
-The use category for which the water is being allocated to: Commercial
+The use category for which the water is being allocated to: E.g. (Commercial)
 
 			
 **TimeframeStart**
 
-The datetime start of the recorded usage: 2021-12-01
+The datetime start of the recorded usage.: E.g. (2021-12-01)
 
 
 **TimeframeEnd** 
 
-The datetime end of the recorded usage: 2021-12-31
+The datetime end of the recorded usage:  E.g. (2021-12-31)
 
 
 **Amount**
 
-Usage of water reported for the specific time frame, village, and use : 5008.0
+Usage of water reported for the specific time frame, village, and use. :  E.g. (5008.0)
 
 
 **VariableCV**
 
-This is a high-level variable used for site-specific water data : Consumptive Use
+This is a high-level variable used for site-specific water data. :  E.g. (Consumptive Use)
 
 
 **ReportYear**
 	
-Year associated with data: 2021
+Year associated with data.:  E.g. (2021)
 
 
 URL ~
@@ -107,22 +107,22 @@ Sites.csv
 
 **SiteNativeID**
 
-Unique identifier code / ID used by the data provider to distinguish the data site in the source data set : Pago Pago Village
+Unique identifier code / ID used by the data provider to distinguish the data site in the source data set. :  E.g. (Pago Pago Village)
 
 
 **Latitude**
 
-Latitude coordinate of the data site : -14.274006
+Latitude coordinate of the data site. :  E.g. (-14.274006)
 
 
 **Longitude**
 
-Longitude coordinate of the data site. : -170.70403
+Longitude coordinate of the data site. :  E.g. (-170.70403)
 
 
 **SiteTypeCV**
 
-The high level description of the site type recognized by the data provider : Village (aggregation of individual water meter use within each village boundary) 
+The high level description of the site type recognized by the data provider. :  E.g. (Village (aggregation of individual water meter use within each village boundary)) 
 
 
 URL ~ 
@@ -137,37 +137,37 @@ Organization.csv
 
 **OrganizationName**
 
-Name corresponding to unique organization and the organization ID : American Samoa Power Authority
+Name corresponding to unique organization and the organization ID. :  E.g. (American Samoa Power Authority)
 
 
 
 **OrganizationContactEmail**
 
-Email information for organization contact person : wei@aspower.com
+Email information for organization contact person. :  E.g. ( @aspower.com)
 
 
 **OrganizationContactName**
 
-Name of the contact person : Wei Hua-Hsien
+Name of the contact person. :  E.g. (Wei Hua-Hsien)
 
 
 **OrganizationPhoneNumber**
 
-The organization's phone number for general information : 1 (684) 699-1234
+The organization's phone number for general information. :  E.g. (1 (684) 699-1234)
 
 
 **OrganizationWebsite**
 
-A hyperlink back to the organization's website : https://www.aspower.com
+A hyperlink back to the organization's website. :  E.g. (https://www.aspower.com)
 
 **StateCV**
 
-Two digit state abbreviation where the organization is: AS
+Two digit state abbreviation where the organization is.:  E.g. (AS)
 
 
 **OrganizationPurview**
 
-A description of the purview of the agency (i.e. water rights, consumptive use, etc.) : water utility, production, delivery, consumptive use 
+A description of the purview of the agency (i.e. water rights, consumptive use, etc.).  :  E.g. (water utility, production, delivery, consumptive use)
 
 
 URL ~
@@ -180,17 +180,17 @@ Variables.csv
 
 **VariableCV**
 
-This is a high-level variable used for site-specific water data : Consumptive Use
+This is a high-level variable used for site-specific water data. :  E.g. (Consumptive Use)
 
 
 **AmountUnitCV**
 
-Unit of the site-specific  amount : Gallons
+Unit of the site-specific  amount. :  E.g. (Gallons)
 
 
 **AggregationIntervalUnitCV**
 
-The aggregation unit (e.g., day ,month, year) :   Month
+The aggregation unit (e.g., day ,month, year). :    E.g. (Month)
 
 
 
@@ -205,7 +205,7 @@ WaterSources.csv
 
 **WaterSourceTypeCV**
 
- the high level description of the water source type : Groundwater
+The high level description of the water source type. :  E.g. (Groundwater)
 
 URL ~
 

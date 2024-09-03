@@ -18,8 +18,7 @@ Access Data
 
 Download the data:
 
-https://lmclatch-aspa-wudr.readthedocs.io/en/latest/acess.html
-
+https://am-samoa-wudr-aspa.readthedocs.io/en/latest/acess.html#
 
 
 Overview
@@ -27,7 +26,8 @@ Overview
 
 To read our overview:
 
-https://lmclatch-aspa-wudr.readthedocs.io/en/latest/pipeline.html
+https://am-samoa-wudr-aspa.readthedocs.io/en/latest/pipeline.html
+
 
 Code
 ==================
