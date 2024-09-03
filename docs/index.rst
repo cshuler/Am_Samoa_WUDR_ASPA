@@ -18,7 +18,7 @@ Access Data
 
 Download the data:
 
-https://am-samoa-wudr-aspa.readthedocs.io/en/latest/acess.html#
+https://am-samoa-wudr-aspa.readthedocs.io/en/latest/acess.html
 
 
 Overview
