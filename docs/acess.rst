@@ -92,7 +92,7 @@ Year associated with data: 2021
 
 URL ~
 
-https://try-test.sfo3.digitaloceanspaces.com/Final_Aggregated_Data.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Final_Aggregated_Data.csv
 
 
 
@@ -105,29 +105,29 @@ Sites
 -------------
 Sites.csv
 
-SiteNativeID: Unique identifier code / ID used by the data provider to distinguish the data site in the source data set.
+**SiteNativeID**
 
-Example: Pago Pago Village
-
-
-Latitude: Latitude coordinate of the data site.
-
-Example: -14.274006
+Unique identifier code / ID used by the data provider to distinguish the data site in the source data set : Pago Pago Village
 
 
-Longitude: Longitude coordinate of the data site.
+**Latitude**
 
-Example: -170.70403
+Latitude coordinate of the data site : -14.274006
 
 
-SiteTypeCV: The high level description of the site type recognized by the data provider 
+**Longitude**
 
-Example: Village (aggregation of individual water meter use within each village boundary) 
+Longitude coordinate of the data site. : -170.70403
+
+
+**SiteTypeCV**
+
+The high level description of the site type recognized by the data provider : Village (aggregation of individual water meter use within each village boundary) 
 
 
 URL ~ 
 
-https://try-test.sfo3.digitaloceanspaces.com/Sites.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Sites.csv
 
 Note: This also contains site-specific well data.
 
@@ -135,81 +135,81 @@ Organization
 ------------
 Organization.csv
 
-OrganizationName: Name corresponding to unique organization and the organization ID
+**OrganizationName**
 
-Example: American Samoa Power Authority
-
-
-
-OrganizationContactEmail: Email information for organization contact person.
-
-Example: wei@aspower.com
+Name corresponding to unique organization and the organization ID : American Samoa Power Authority
 
 
-OrganizationContactName: Name of the contact person
 
-Example: Wei Hua-Hsien
+**OrganizationContactEmail**
 
-
-OrganizationPhoneNumber: The organization's phone number for general information
-
-Example: 1 (684) 699-1234
+Email information for organization contact person : wei@aspower.com
 
 
-OrganizationWebsite: A hyperlink back to the organization's website
+**OrganizationContactName**
 
-Example: https://www.aspower.com
-
-StateCV:Two digit state abbreviation where the organization is
-
-Example: AS
+Name of the contact person : Wei Hua-Hsien
 
 
-OrganizationPurview: A description of the purview of the agency (i.e. water rights, consumptive use, etc.)
+**OrganizationPhoneNumber**
 
-Example: water utility, production, delivery, consumptive use 
+The organization's phone number for general information : 1 (684) 699-1234
+
+
+**OrganizationWebsite**
+
+A hyperlink back to the organization's website : https://www.aspower.com
+
+**StateCV**
+
+Two digit state abbreviation where the organization is: AS
+
+
+**OrganizationPurview**
+
+A description of the purview of the agency (i.e. water rights, consumptive use, etc.) : water utility, production, delivery, consumptive use 
 
 
 URL ~
 
-https://try-test.sfo3.digitaloceanspaces.com/Organization.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Organization.csv
 
 Variables
 ----------
 Variables.csv
 
-VariableCV: This is a high-level variable used for site-specific water data.
+**VariableCV**
 
-Example: Consumptive Use
-
-
-AmountUnitCV: Unit of the site-specific  amount.
-
-Example: Gallons
+This is a high-level variable used for site-specific water data : Consumptive Use
 
 
-AggregationIntervalUnitCV: The aggregation unit (e.g., day ,month, year).
+**AmountUnitCV**
 
-Example: Month
+Unit of the site-specific  amount : Gallons
+
+
+**AggregationIntervalUnitCV**
+
+The aggregation unit (e.g., day ,month, year) :   Month
 
 
 
 URL ~
 
-https://try-test.sfo3.digitaloceanspaces.com/Variables.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/Variables.csv
 
 Water Sources
 --------------
 WaterSources.csv
 
 
-WaterSourceTypeCV: the high level description of the water source type 
+**WaterSourceTypeCV**
 
-Example: Groundwater
+ the high level description of the water source type : Groundwater
 
 URL ~
 
 
-https://try-test.sfo3.digitaloceanspaces.com/WaterSources.csv
+https://aspa-wudr.sfo3.digitaloceanspaces.com/WaterSources.csv
 
 
